@@ -13,6 +13,7 @@ setup(
     platforms='linux',
     classifiers=[
         'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
@@ -20,7 +21,7 @@ setup(
 
     packages=find_packages('.'),
     install_requires=[
-        'bandit',
+        'bandit<=1.6.2',
     ],
     entry_points={
         'console_scripts': [
