@@ -7,8 +7,8 @@ You can check the [plugins list](https://github.com/PyCQA/bandit/tree/master/ban
 
 ## Usage
 ```
--   repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
-    sha: v1.0.4
+-   repo: https://github.com/xqliang/pre-commit-hooks-bandit
+    sha: v1.0.4.1
     hooks:
     -   id: python-bandit-vulnerability-check
 ```
